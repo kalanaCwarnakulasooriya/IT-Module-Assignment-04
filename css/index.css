@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  background: rgb(219, 216, 216);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Merienda', cursive;
+  color: #00AD82;
+  overflow-y: hidden;
+
+}
+.dash-bar{
+  width: 900px;
+  color: white;
+  text-align: center;
+  height: 420px;
+  font-size: 30px;
+  margin-left: 340px;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px,20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(255, 254, 254, 0.1);
+
+}
+.box{
+  border: 2px solid black;
+  margin: 15px;
+  width: 150px;
+  margin-left: 70px;
+  border-radius: 30px;  
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(211, 20, 20, 0.1);
+}
+.text{
+  text-align: center;
+  margin-top: 70px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #00AD82;
+}
+.box:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px #00AD82;
+  color: cyan;
+  border: 2px solid cyan;
+  
+}
+h2{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.footer{
+  padding: 50px;
+  background-color: rgba(71, 69, 69, 0.859);
+  margin-top: 77px;
+  text-align: center;
+  font-family:  "Merienda", cursive;
+  font-size: 15px;
+  color: black;
+}
