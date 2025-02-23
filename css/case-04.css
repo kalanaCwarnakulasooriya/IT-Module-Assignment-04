@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+ 
+}
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid red;
+  animation: water 2s linear infinite;
+  animation: click 2s linear ease;
+}
+body:hover {
+  cursor:inherit;
+  
+}
+
+@keyframes click {
+  from{
+      width: 0px;
+      height: 0px;
+      opacity: 1;
+  }
+  to{
+      width: 10px;
+      height: 10px;
+      opacity: 0;
+  }
+  
+}
+@keyframes water {
+  from{
+      width: 0px;
+      height: 0px;
+  }
+  to{
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+  }
+  
+}
