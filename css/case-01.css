@@ -1,0 +1,42 @@
+.content{
+  width: 220px;
+  height: 490px;
+  position: relative;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  right: 172px;
+}
+.content > div{
+  left: 0;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  color: white;
+  box-shadow: 0 5px 8px gray;
+  transition: all 1.5s ease-in-out;
+}
+.content > div > p{
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+}
+.content > div > i{
+  position: absolute;
+  right: 10px;
+  margin-top: 30px;
+
+  object-fit: cover;
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+.content > div:hover{
+  left: 164px;
+  transition: all 1.5s ease-in-out;
+}
